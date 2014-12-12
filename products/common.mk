@@ -67,8 +67,8 @@ PRODUCT_PACKAGES += \
 # Backuptool Support
 PRODUCT_COPY_FILES += \
     vendor/katsuna/prebuilt/common/addon.d/50-katsuna.sh:system/addon.d/50-katsuna.sh \
-    vendor/katsuna/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/katsuna/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions
+    vendor/katsuna/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
+    vendor/katsuna/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions
 
 ifeq ($(AB_OTA_UPDATER),true)
 PRODUCT_COPY_FILES += \
