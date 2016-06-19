@@ -22,6 +22,11 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/katsuna/overlay/common
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
+# PreBuilt Katsuna apps
+PRODUCT_COPY_FILES += \
+    vendor/katsuna/prebuilt/common/app/Keyboard.apk:system/app/Keyboard/Keyboard.apk \
+    vendor/katsuna/prebuilt/common/app/Messages.apk:system/app/Messages/Messages.apk
+
 # Extra Packages
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
