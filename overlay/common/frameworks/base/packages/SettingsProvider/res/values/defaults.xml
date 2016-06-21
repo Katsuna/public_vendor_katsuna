@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Set default input method to Katsuna Keyboard -->
+    <string name="def_input_method">gr.crystalogic.keyboard/.ui.SoftKeyboard</string>
+
+</resources>
