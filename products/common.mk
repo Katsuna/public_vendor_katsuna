@@ -33,4 +33,5 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     LiveWallpapersPicker \
     Stk \
+    Updater \
     WallpaperPicker
