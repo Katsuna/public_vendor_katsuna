@@ -4,4 +4,12 @@
     <!-- Set default messaging app to Katsuna Messages -->
     <string name="default_sms_application">gr.crystalogic.sms</string>
 
+    <!-- Defines the default set of global actions. Actions may still be disabled or hidden based
+         on the current state of the device. -->
+    <string-array translatable="false" name="config_globalActionsList">
+        <item>power</item>
+        <item>reboot</item>
+        <item>airplane</item>
+    </string-array>
+
 </resources>
