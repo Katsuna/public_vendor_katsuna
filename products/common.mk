@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
 
 # PreBuilt Katsuna apps
 PRODUCT_COPY_FILES += \
+    vendor/katsuna/prebuilt/common/app/KatsunaContacts.apk:system/app/KatsunaContacts/KatsunaContacts.apk \
     vendor/katsuna/prebuilt/common/app/Keyboard.apk:system/app/Keyboard/Keyboard.apk \
     vendor/katsuna/prebuilt/common/app/Messages.apk:system/app/Messages/Messages.apk
 
