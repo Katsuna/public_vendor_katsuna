@@ -10,10 +10,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-google \
     ro.config.alarm_alert=Oxygen.ogg \
     ro.setupwizard.enterprise_mode=1 \
-    ro.com.android.dataroaming=false \
     ro.setupwizard.network_required=false \
-    ro.setupwizard.gservices_delay=-1 \
-    ro.adb.secure=1
+    ro.setupwizard.gservices_delay=-1
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/katsuna/overlay/common
