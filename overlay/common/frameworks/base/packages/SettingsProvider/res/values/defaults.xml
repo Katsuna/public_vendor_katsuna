@@ -4,4 +4,8 @@
     <!-- Set default input method to Katsuna Keyboard -->
     <string name="def_input_method">gr.crystalogic.keyboard/.ui.SoftKeyboard</string>
 
+    <!-- Set default Backup service to Google -->
+    <bool name="def_backup_enabled">true</bool>
+    <string name="def_backup_transport">com.google.android.gms/.backup.BackupTransportService</string>
+
 </resources>
