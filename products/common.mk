@@ -11,7 +11,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.alarm_alert=Oxygen.ogg \
     ro.setupwizard.enterprise_mode=1 \
     ro.setupwizard.network_required=false \
-    ro.setupwizard.gservices_delay=-1
+    ro.setupwizard.gservices_delay=-1 \
+    ro.katsuna.version=katsuna_$(shell date +"%y%m%d")
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/katsuna/overlay/common
