@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/katsuna/prebuilt/common/app/KatsunaCalls.apk:system/app/KatsunaCalls/KatsunaCalls.apk \
     vendor/katsuna/prebuilt/common/app/KatsunaContacts.apk:system/app/KatsunaContacts/KatsunaContacts.apk \
     vendor/katsuna/prebuilt/common/app/KatsunaKeyboard.apk:system/app/KatsunaKeyboard/KatsunaKeyboard.apk \
-    vendor/katsuna/prebuilt/common/app/Messages.apk:system/app/Messages/Messages.apk
+    vendor/katsuna/prebuilt/common/app/KatsunaMessages.apk:system/app/Messages/KatsunaMessages.apk
 
 # Extra Packages
 PRODUCT_PACKAGES += \
