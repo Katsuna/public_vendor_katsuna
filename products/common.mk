@@ -12,6 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1 \
     ro.setupwizard.network_required=false \
     ro.setupwizard.gservices_delay=-1 \
+    ro.adb.secure=1 \
     ro.katsuna.version=katsuna_$(shell date +"%y%m%d")
 
 # Common overlay
