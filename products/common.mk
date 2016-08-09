@@ -37,3 +37,9 @@ PRODUCT_PACKAGES += \
     Stk \
     Updater \
     WallpaperPicker
+
+# Backuptool Support
+PRODUCT_COPY_FILES += \
+    vendor/katsuna/prebuilt/common/addon.d/50-katsuna.sh:system/addon.d/50-katsuna.sh \
+    vendor/katsuna/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/katsuna/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
