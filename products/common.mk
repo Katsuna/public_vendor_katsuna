@@ -22,12 +22,13 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/katsuna/overlay/common
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# PreBuilt Katsuna apps
-PRODUCT_COPY_FILES += \
-    vendor/katsuna/prebuilt/common/app/KatsunaCalls.apk:system/app/KatsunaCalls/KatsunaCalls.apk \
-    vendor/katsuna/prebuilt/common/app/KatsunaContacts.apk:system/app/KatsunaContacts/KatsunaContacts.apk \
-    vendor/katsuna/prebuilt/common/app/KatsunaKeyboard.apk:system/app/KatsunaKeyboard/KatsunaKeyboard.apk \
-    vendor/katsuna/prebuilt/common/app/KatsunaMessages.apk:system/app/Messages/KatsunaMessages.apk
+# PreBuilt Katsuna Packages
+PRODUCT_PACKAGES += \
+    KatsunaCalls \
+    KatsunaContacts \
+    KatsunaDatastore \
+    KatsunaKeyboard \
+    KatsunaMessages
 
 # Extra Packages
 PRODUCT_PACKAGES += \
