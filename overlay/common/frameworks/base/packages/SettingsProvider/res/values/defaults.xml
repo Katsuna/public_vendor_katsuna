@@ -2,8 +2,8 @@
 <resources>
 
     <!-- Set default input method to Katsuna Keyboard -->
-    <string name="def_input_method">gr.crystalogic.keyboard/.ui.SoftKeyboard</string>
-    <string name="def_enable_input_methods" translatable="false">gr.crystalogic.keyboard/.ui.SoftKeyboard</string>
+    <string name="def_input_method">com.katsuna.keyboard/.ui.SoftKeyboard</string>
+    <string name="def_enable_input_methods" translatable="false">com.katsuna.keyboard/.ui.SoftKeyboard</string>
 
     <!-- Set default Backup service to Google -->
     <bool name="def_backup_enabled">true</bool>
