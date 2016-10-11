@@ -14,9 +14,9 @@
 #     See the License for the specific language governing permissions and
 #     limitations under the License.
 
-# if variant variable is unset, use "user" as default
+# if variant variable is unset, use "userdebug" as default
 if [ -z "$variant" ]; then
-    export variant=user
+    export variant=userdebug
 fi
 
 # add all lunch combos
