@@ -26,7 +26,8 @@ PRODUCT_PACKAGES += \
     KatsunaContacts \
     KatsunaDatastore \
     KatsunaKeyboard \
-    KatsunaMessages
+    KatsunaMessages \
+    KatsunaUpdater
 
 # Extra Packages
 PRODUCT_PACKAGES += \
