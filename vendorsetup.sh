@@ -24,3 +24,6 @@ vendorsetups=($(ls vendor/katsuna/products/ | grep katsuna_ | sed "s/.mk/-$varia
 for combo in "${vendorsetups[@]}"; do
     add_lunch_combo $combo
 done
+
+# hax: add -eng emulator
+add_lunch_combo katsuna_x86-eng
