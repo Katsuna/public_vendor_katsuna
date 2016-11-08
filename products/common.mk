@@ -27,7 +27,8 @@ PRODUCT_PACKAGES += \
     KatsunaDatastore \
     KatsunaKeyboard \
     KatsunaMessages \
-    KatsunaUpdater
+    KatsunaUpdater \
+    CyanogenSetupWizard
 
 # Extra Packages
 PRODUCT_PACKAGES += \
