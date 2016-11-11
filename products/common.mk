@@ -27,8 +27,8 @@ PRODUCT_PACKAGES += \
     KatsunaDatastore \
     KatsunaKeyboard \
     KatsunaMessages \
-    KatsunaUpdater \
-    KatsunaSetupWizard
+    KatsunaSetupWizard \
+    KatsunaUpdater
 
 # Extra Packages
 PRODUCT_PACKAGES += \
@@ -36,7 +36,6 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     LiveWallpapersPicker \
     Stk \
-    Updater \
     WallpaperPicker
 
 # Backuptool Support
