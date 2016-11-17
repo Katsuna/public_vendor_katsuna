@@ -6,7 +6,7 @@
     <string name="def_enable_input_methods" translatable="false">com.katsuna.keyboard/.ui.SoftKeyboard</string>
 
     <!-- Set default Backup service to Google -->
-    <bool name="def_backup_enabled">true</bool>
+    <bool name="def_backup_enabled">false</bool>
     <string name="def_backup_transport">com.google.android.gms/.backup.BackupTransportService</string>
 
 </resources>
