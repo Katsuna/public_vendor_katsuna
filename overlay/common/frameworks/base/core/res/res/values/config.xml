@@ -49,4 +49,9 @@
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService</item>
     </string-array>
 
+    <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
+         Software implementation will be used if config_hardware_auto_brightness_available is not set
+    Katsuna edit: disable automatic/adaptive brightness as our Quick settings implementation
+    explicitly disables it on runtime -->
+    <bool name="config_automatic_brightness_available">false</bool>
 </resources>
