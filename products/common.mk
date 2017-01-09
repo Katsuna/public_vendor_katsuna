@@ -22,12 +22,12 @@ PRODUCT_COPY_FILES += \
 
 # Katsuna Apps
 PRODUCT_PACKAGES += \
-    KatsunaAIMiner \
     KatsunaCalls \
     KatsunaContacts \
     KatsunaDatastore \
     KatsunaKeyboard \
     KatsunaMessages \
+    KatsunaServices \
     KatsunaSetupWizard \
     KatsunaUpdater
 
