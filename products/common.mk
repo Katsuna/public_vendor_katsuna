@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     KatsunaCalls \
     KatsunaContacts \
     KatsunaKeyboard \
+    KatsunaLauncher \
     KatsunaMessages \
     KatsunaServices \
     KatsunaSetupWizard \
@@ -33,7 +34,6 @@ PRODUCT_PACKAGES += \
 # Extra Packages
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
-    Launcher3 \
     LiveWallpapersPicker \
     Stk \
     WallpaperPicker
