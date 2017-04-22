@@ -29,7 +29,8 @@ PRODUCT_PACKAGES += \
     KatsunaMessages \
     KatsunaServices \
     KatsunaSetupWizard \
-    KatsunaUpdater
+    KatsunaUpdater \
+    KatsunaVisual
 
 # Extra Packages
 PRODUCT_PACKAGES += \
