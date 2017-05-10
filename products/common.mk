@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     KatsunaCalls \
     KatsunaContacts \
+    KatsunaInfoServices \
     KatsunaKeyboard \
     KatsunaLauncher \
     KatsunaMessages \
