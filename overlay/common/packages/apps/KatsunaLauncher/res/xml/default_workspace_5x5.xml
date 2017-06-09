@@ -20,6 +20,14 @@
     <!-- Left screen [1] -->
 
     <!-- Middle screen [2] -->
+    <appwidget
+        launcher:packageName="com.katsuna.widgets"
+        launcher:className="com.katsuna.widgets.clockwidget"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="5" />
 
     <!-- Right screen [3] -->
 

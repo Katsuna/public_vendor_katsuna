@@ -15,6 +15,17 @@
 -->
 
 <favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.katsuna.launcher">
+
+    <!-- Middle screen [2] -->
+    <appwidget
+        launcher:packageName="com.katsuna.widgets"
+        launcher:className="com.katsuna.widgets.clockwidget"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="3" />
+
     <!-- Update the db with new hotseat items.  Note that we reference the browser's original
          package name. -->
     <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
