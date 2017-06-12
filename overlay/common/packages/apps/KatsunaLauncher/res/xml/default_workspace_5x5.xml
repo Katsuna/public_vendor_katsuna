@@ -5,7 +5,7 @@
 
     <appwidget
         launcher:packageName="com.katsuna.widgets"
-        launcher:className="com.katsuna.widgets.clockwidget.ClockWidget"
+        launcher:className="com.katsuna.widgets.commons.WidgetCollection"
         launcher:screen="0"
         launcher:x="0"
         launcher:y="0"
