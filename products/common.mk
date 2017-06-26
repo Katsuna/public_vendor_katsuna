@@ -47,5 +47,5 @@ PRODUCT_COPY_FILES += \
     vendor/katsuna/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions
 
 # Default permission grant exceptions for Katsuna apps
-PRODUCT_COPY_FILES += \
-    vendor/katsuna/prebuilt/common/etc/default-permissions/katsuna-permissions.xml:system/etc/default-permissions/katsuna-permissions.xml
+#PRODUCT_COPY_FILES += \
+#    vendor/katsuna/prebuilt/common/etc/default-permissions/katsuna-permissions.xml:system/etc/default-permissions/katsuna-permissions.xml
