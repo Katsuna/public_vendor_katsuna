@@ -11,5 +11,9 @@
 
     <!-- Non Market Apps -->
     <bool name="def_install_non_market_apps">true</bool>
+    
+    <!-- Animation scales (Development Settings) -->
+    <fraction name="def_window_animation_scale">50%</fraction>
+    <fraction name="def_window_transition_scale">50%</fraction>
 
 </resources>
