@@ -11,7 +11,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.gservices_delay=-1 \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
-    ro.katsuna.version=katsuna_$(shell date +"%y%m%d")
+    ro.katsuna.version=$(ROM_VERSION)
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/katsuna/overlay/common
