@@ -50,3 +50,6 @@ PRODUCT_COPY_FILES += \
 # Default permission grant exceptions for Katsuna apps
 #PRODUCT_COPY_FILES += \
 #    vendor/katsuna/prebuilt/common/etc/default-permissions/katsuna-permissions.xml:system/etc/default-permissions/katsuna-permissions.xml
+
+# Sign using our private keys
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/keys/releasekey
