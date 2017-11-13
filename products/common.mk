@@ -21,18 +21,35 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 # Katsuna Apps
+ifneq ($(AOSP_BUILD),true)
+    PRODUCT_PACKAGES += \
+        KatsunaCallsPrebuilt \
+        KatsunaContactsPrebuilt \
+        KatsunaInfoServicesPrebuilt \
+        KatsunaKeyboardPrebuilt \
+        KatsunaLauncherPrebuilt \
+        KatsunaMessagesPrebuilt \
+        KatsunaServicesPrebuilt \
+        KatsunaVisualPrebuilt \
+        KatsunaWidgetsPrebuilt
+else
+    PRODUCT_PACKAGES += \
+        KatsunaCalls \
+        KatsunaContacts \
+        KatsunaInfoServices \
+        KatsunaKeyboard \
+        KatsunaLauncher \
+        KatsunaMessages \
+        KatsunaServices \
+        KatsunaVisual \
+        KatsunaWidgets
+endif
+
+# AOSP only Katsuna Apps
+# Currently, these apps are only makefile buildable
 PRODUCT_PACKAGES += \
-    KatsunaCalls \
-    KatsunaContacts \
-    KatsunaInfoServices \
-    KatsunaKeyboard \
-    KatsunaLauncher \
-    KatsunaMessages \
-    KatsunaServices \
-    KatsunaSetupWizard \
-    KatsunaUpdater \
-    KatsunaVisual \
-    KatsunaWidgets
+     KatsunaSetupWizard \
+     KatsunaUpdater
 
 # Extra Packages
 PRODUCT_PACKAGES += \
