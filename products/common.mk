@@ -26,25 +26,27 @@ ifneq ($(AOSP_BUILD),true)
         KatsunaCallsPrebuilt \
         KatsunaContactsPrebuilt \
         KatsunaKeyboardPrebuilt \
-        KatsunaMessagesPrebuilt
+        KatsunaLauncherPrebuilt \
+        KatsunaMessagesPrebuilt \
+        KatsunaWidgetsPrebuilt
 else
     PRODUCT_PACKAGES += \
         KatsunaCalls \
         KatsunaContacts \
         KatsunaKeyboard \
-        KatsunaMessages
+        KatsunaLauncher \
+        KatsunaMessages \
+        KatsunaWidgets
 endif
 
 # AOSP only Katsuna Apps
 # Currently, these apps are only makefile buildable
 PRODUCT_PACKAGES += \
      KatsunaInfoServices \
-     KatsunaLauncher \
      KatsunaServices \
      KatsunaSetupWizard \
      KatsunaUpdater \
-     KatsunaVisual \
-     KatsunaWidgets
+     KatsunaVisual
 
 # Extra Packages
 PRODUCT_PACKAGES += \
