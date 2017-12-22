@@ -2,10 +2,10 @@ PRODUCT_BRAND ?= katsuna
 
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
+    ro.control_privapp_permissions=enforce \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
     ro.com.google.clientidbase=android-google \
-    ro.com.android.wifi-watchlist=GoogleGuest \
     ro.setupwizard.enterprise_mode=1 \
     ro.setupwizard.network_required=false \
     ro.setupwizard.gservices_delay=-1 \
@@ -27,8 +27,7 @@ ifneq ($(AOSP_BUILD),true)
         KatsunaContactsPrebuilt \
         KatsunaKeyboardPrebuilt \
         KatsunaLauncherPrebuilt \
-        KatsunaMessagesPrebuilt \
-        KatsunaWidgetsPrebuilt
+        KatsunaMessagesPrebuilt
 else
     PRODUCT_PACKAGES += \
         KatsunaCalls \
