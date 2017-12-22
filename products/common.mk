@@ -43,7 +43,6 @@ endif
 PRODUCT_PACKAGES += \
      KatsunaInfoServices \
      KatsunaServices \
-     KatsunaSetupWizard \
      KatsunaUpdater \
      KatsunaVisual
 
