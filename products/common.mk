@@ -42,7 +42,6 @@ endif
 # Currently, these apps are only makefile buildable
 PRODUCT_PACKAGES += \
      KatsunaInfoServices \
-     KatsunaServices \
      KatsunaUpdater \
      KatsunaVisual
 
