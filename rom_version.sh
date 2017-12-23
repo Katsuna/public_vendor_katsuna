@@ -1,7 +1,7 @@
 # Katsuna OS Versioning
 
-major=1
-feature=1
+major=2
+feature=0
 bug=0
 
 if [ $TARGET_DEVICE = "bullhead" ]; then
