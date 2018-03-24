@@ -53,6 +53,12 @@ PRODUCT_PACKAGES += \
     Stk \
     WallpaperPicker
 
+# Vendor Packages
+# Opera
+PRODUCT_PACKAGES += \
+    OperaPrebuilt \
+    OperaDataPrebuilt
+
 # Backuptool Support
 PRODUCT_COPY_FILES += \
     vendor/katsuna/prebuilt/common/addon.d/50-katsuna.sh:system/addon.d/50-katsuna.sh \
