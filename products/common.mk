@@ -69,5 +69,10 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_COPY_FILES += \
 #    vendor/katsuna/prebuilt/common/etc/default-permissions/katsuna-permissions.xml:system/etc/default-permissions/katsuna-permissions.xml
 
+# Priv-app permission whitelisting (needed for 8.0+ for all permissions that need to be automatically granted
+# to priv-apps, even if already signed with platform key and/or are privileged modules
+PRODUCT_COPY_FILES += \
+    vendor/katsuna/prebuilt/common/etc/permissions/privapp-permissions-katsuna.xml:system/etc/permissions/privapp-permissions-katsuna.xml
+
 # Sign using our private keys
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/keys/releasekey
