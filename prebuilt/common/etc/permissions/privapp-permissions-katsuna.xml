@@ -17,15 +17,15 @@
 <permissions>
 
     <privapp-permissions package="com.katsuna.calls">
-        <permission name="ndroid.permission.MODIFY_PHONE_STATE"/>
-        <permission name="ndroid.permission.READ_CALL_LOG"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_CONTACTS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.katsuna.launcher">
         <permission name="android.permission.BIND_APPWIDGET"/>
     </privapp-permissions>
 
-    <privapp-permissions package="org.katsuna.updater">
+    <privapp-permissions package="com.katsuna.updater">
         <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
         <permission name="android.permission.REBOOT"/>
         <permission name="android.permission.RECOVERY"/>
