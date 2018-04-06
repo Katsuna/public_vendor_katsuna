@@ -24,10 +24,6 @@
         <permission name="android.permission.CALL_PHONE"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.android.dialer">
-        <permission name="android.permission.READ_PHONE_STATE"/>
-    </privapp-permissions> 
-
     <privapp-permissions package="com.katsuna.launcher">
         <permission name="android.permission.BIND_APPWIDGET"/>
     </privapp-permissions>
