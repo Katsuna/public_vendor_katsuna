@@ -65,9 +65,9 @@ PRODUCT_COPY_FILES += \
     vendor/katsuna/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/katsuna/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions
 
-# Default permission grant exceptions for Katsuna apps
-#PRODUCT_COPY_FILES += \
-#    vendor/katsuna/prebuilt/common/etc/default-permissions/katsuna-permissions.xml:system/etc/default-permissions/katsuna-permissions.xml
+#Default permission grant exceptions for Katsuna apps
+PRODUCT_COPY_FILES += \
+    vendor/katsuna/prebuilt/common/etc/default-permissions/katsuna-permissions.xml:system/etc/default-permissions/katsuna-permissions.xml
 
 # Priv-app permission whitelisting (needed for 8.0+ for all permissions that need to be automatically granted
 # to priv-apps, even if already signed with platform key and/or are privileged modules

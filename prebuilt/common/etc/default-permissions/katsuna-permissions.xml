@@ -27,45 +27,11 @@
     -->
 
     <exception
-            package="com.katsuna.contacts">
-        <!-- Contacts -->
+            package="com.katsuna.calls">
+        <!-- Calls -->
         <permission name="android.permission.READ_CONTACTS" fixed="false"/>
-        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
-        <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
-    </exception>
-
-    <exception
-            package="com.katsuna.infoservices">
-        <!-- Phone -->
-        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
-    </exception>
-
-    <exception
-            package="com.katsuna.services">
-        <!-- Contacts -->
-        <permission name="android.permission.READ_CONTACTS" fixed="false"/>
-        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
-        <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
-        <!-- Location -->
-        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
-        <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
-        <!-- Phone -->
-        <permission name="android.permission.CALL_PHONE" fixed="false"/>
         <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
         <permission name="android.permission.READ_CALL_LOG" fixed="false"/>
-        <!-- SMS -->
-        <permission name="android.permission.READ_SMS" fixed="false"/>
-        <!-- Storage -->
-        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
-        <!-- GMS -->
-        <permission name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" fixed="false"/>
-    </exception>
-
-    <exception
-        package="com.katsuna.widgets">
-      <!-- Location -->
-      <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
-      <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
     </exception>
 
 </exceptions>
