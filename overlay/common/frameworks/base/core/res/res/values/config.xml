@@ -36,10 +36,6 @@
         <item>com.google.android.gms/com.google.android.gms.chimera.PersistentIntentOperationService</item>
         <item>com.google.android.gms/com.google.android.gms.chimera.PersistentIntentOperationService$ChimeraService</item>
         <item>com.google.android.setupwizard/com.google.android.setupwizard.SetupWizardActivity</item>
-        <item>com.google.android.setupwizard/com.google.android.setupwizard.deferred.ComponentStateMitigationReceiver</item>
-        <item>com.google.android.setupwizard/com.google.android.setupwizard.deferred.DeferredLifecycleBootReceiver</item>
-        <item>com.google.android.setupwizard/com.google.android.setupwizard.deferred.DeferredSetupWelcomeActivity</item>
-        <item>com.google.android.setupwizard/com.google.android.setupwizard.user.DeviceOwnerUserSetupCompleteActivity</item>
     </string-array>
 
     <!-- Force enabling of some services that could have been previously disabled -->
