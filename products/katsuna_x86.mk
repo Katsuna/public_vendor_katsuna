@@ -10,7 +10,3 @@ PRODUCT_BRAND := google
 PRODUCT_DEVICE := generic_x86
 PRODUCT_MODEL := Katsuna on IA Emulator
 PRODUCT_MANUFACTURER := Katsuna
-
-# Override goldfish config.ini, check build/make/target/product/emulator.mk for original setting
-PRODUCT_COPY_FILES += \
-    vendor/katsuna/prebuilt/emulator/config.ini:config.ini
