@@ -2,7 +2,7 @@
 
 major=2
 feature=0
-bug=0
+bug=1
 
 if [ $TARGET_DEVICE = "bullhead" ]; then
     device=5X
