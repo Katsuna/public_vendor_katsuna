@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
 ifneq ($(AOSP_BUILD),true)
     PRODUCT_PACKAGES += \
         KatsunaCallsPrebuilt \
+        KatsunaClockPrebuilt \
         KatsunaContactsPrebuilt \
         KatsunaKeyboardPrebuilt \
         KatsunaLauncherPrebuilt \
