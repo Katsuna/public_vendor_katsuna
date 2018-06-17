@@ -1,8 +1,8 @@
 # Katsuna OS Versioning
 
 major=2
-feature=0
-bug=1
+feature=1
+bug=0
 
 if [ $TARGET_DEVICE = "bullhead" ]; then
     device=5X
