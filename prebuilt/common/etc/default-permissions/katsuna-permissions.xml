@@ -34,5 +34,11 @@
         <permission name="android.permission.READ_CALL_LOG" fixed="false"/>
     </exception>
 
+    <exception
+            package="com.katsuna.updater">
+        <!-- Storage -->
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+    </exception>
+
 </exceptions>
 
