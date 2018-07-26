@@ -37,6 +37,7 @@
     <exception
             package="com.katsuna.updater">
         <!-- Storage -->
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
     </exception>
 
