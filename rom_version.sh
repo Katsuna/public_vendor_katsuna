@@ -14,9 +14,9 @@ ROM_NAME=Katsuna_OS_$major.$feature.$bug-$(date +%Y%m%d)
 ROM_ZIP_NAME=Katsuna_OS_$device"_"$major.$feature.$bug-$(date +%Y%m%d)
 
 
-if [ -n "$BUILD_TAG" ]; then
-    ROM_NAME=$ROM_NAME-$BUILD_TAG
-    ROM_ZIP_NAME=$ROM_ZIP_NAME-$BUILD_TAG
+if [ -n "$EXTRA_BUILD_TAG" ]; then
+    ROM_NAME=$ROM_NAME-$EXTRA_BUILD_TAG
+    ROM_ZIP_NAME=$ROM_ZIP_NAME-$EXTRA_BUILD_TAG
 fi
 
 ROM_VERSION=$ROM_NAME
