@@ -29,8 +29,7 @@ ifneq ($(AOSP_BUILD),true)
         KatsunaInfoServicesPrebuilt \
         KatsunaKeyboardPrebuilt \
         KatsunaLauncherPrebuilt \
-        KatsunaMessagesPrebuilt \
-        KatsunaWidgetsPrebuilt
+        KatsunaMessagesPrebuilt
 else
     PRODUCT_PACKAGES += \
         KatsunaCalls \
