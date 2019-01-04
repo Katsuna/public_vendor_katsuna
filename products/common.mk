@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
 # Katsuna Apps
 ifneq ($(AOSP_BUILD),true)
     PRODUCT_PACKAGES += \
+        KatsunaCalendarPrebuilt \
         KatsunaCallsPrebuilt \
         KatsunaClockPrebuilt \
         KatsunaContactsPrebuilt \
