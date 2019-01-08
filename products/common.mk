@@ -45,7 +45,6 @@ endif
 # AOSP only Katsuna Apps
 # Currently, these apps are only makefile buildable
 PRODUCT_PACKAGES += \
-     KatsunaPartner \
      KatsunaSetupWizard \
      KatsunaUpdater
 
