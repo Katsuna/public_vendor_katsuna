@@ -25,8 +25,10 @@ ifneq ($(AOSP_BUILD),true)
     PRODUCT_PACKAGES += \
         KatsunaCalendarPrebuilt \
         KatsunaCallsPrebuilt \
+        KatsunaCameraPrebuilt \
         KatsunaClockPrebuilt \
         KatsunaContactsPrebuilt \
+        KatsunaGalleryPrebuilt \
         KatsunaInfoServicesPrebuilt \
         KatsunaKeyboardPrebuilt \
         KatsunaLauncherPrebuilt \
