@@ -14,6 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.katsuna.version=$(ROM_VERSION)
 
 # Common overlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/katsuna/overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/katsuna/overlay/common
 
 # Enable SIP+VoIP on all targets
