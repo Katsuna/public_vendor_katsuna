@@ -8,6 +8,8 @@ if [ $TARGET_DEVICE = "bullhead" ]; then
     device=5X
 elif [ $TARGET_DEVICE = "angler" ]; then
     device=6P
+elif [ $TARGET_DEVICE = "taimen" ]; then
+    device=P2XL
 fi
 
 ROM_NAME=Katsuna_OS_$major.$feature.$bug-$(date +%Y%m%d)
