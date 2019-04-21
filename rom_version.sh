@@ -4,6 +4,10 @@ major=2
 feature=1
 bug=0
 
+# Katsuna OS Kernel info
+export KBUILD_BUILD_USER=build
+export KBUILD_BUILD_HOST=katsuna
+
 if [ $TARGET_DEVICE = "bullhead" ]; then
     device=5X
 elif [ $TARGET_DEVICE = "angler" ]; then
