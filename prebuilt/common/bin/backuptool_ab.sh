@@ -5,7 +5,6 @@
 
 export S=/system
 export C=/postinstall/tmp/backupdir
-export V=15.1
 
 # Scripts in /system/addon.d expect to find backuptool.functions in /tmp
 mkdir -p /postinstall/tmp/
@@ -34,12 +33,8 @@ check_prereq() {
 # If there is no build.prop file the partition is probably empty.
 if [ ! -r /system/build.prop ]; then
     return 0
+    echo "Partition is probably empty!"
 fi
-
-grep -q "^ro.lineage.version=$V.*" /system/etc/prop.default /system/build.prop && return 1
-
-echo "Not backing up files from incompatible version: $V"
-return 0
 }
 
 check_blacklist() {
