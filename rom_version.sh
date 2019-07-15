@@ -1,7 +1,7 @@
 # Katsuna OS Versioning
 
 major=2
-feature=1
+feature=2
 bug=0
 
 # Katsuna OS Kernel info
