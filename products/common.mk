@@ -86,5 +86,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/katsuna/prebuilt/common/etc/permissions/privapp-permissions-katsuna.xml:system/etc/permissions/privapp-permissions-katsuna.xml
 
-# Sign using our private keys
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/keys/releasekey
+# Sign using our private keys if they exist
+$(call inherit-product-if-exists, vendor/keys/keys.mk)
